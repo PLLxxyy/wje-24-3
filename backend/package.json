@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nodemon server.ts",
+    "check": "tsc --noEmit",
     "build": "tsc",
     "start": "node dist/server.js"
   },
